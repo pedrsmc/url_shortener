@@ -1,11 +1,26 @@
+__pycache__/
+*.pyc
+.env
 venv/
-.venv/
 env/
 
-.vscode
 
-__pycache__/
-*.py[cod]
+.vscode/
 
-.env
 
+*.db
+*.sqlite
+*.sqlite3
+
+
+.DS_Store
+Thumbs.db
+
+
+*.log
+
+
+*.pem
+*.key
+neon*.json
+.pgpass
