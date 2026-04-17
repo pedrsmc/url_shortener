@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>EncurtaLink</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-white" href="#">EncurtaLink</a>
+            <div class="ms-auto">
+                <a class="btn btn-outline-light me-2" href="#contact-links">Contato</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <div class="container text-center mt-5 pt-5">
+        <h1 class="display-4 fw-bold hero-title">
+            Transforme seus <span>links longos</span><br>
+            em URLs poderosas
+        </h1>
+
+        <p class="text-white-50 mt-3 mb-5">
+            Encurte seus links com facilidade
+        </p>
+
+        <!-- Input -->
+        <div class="row justify-content-center">
+            <div class="col-lg-6">
+                <div class="input-group">
+                    <input type="url" class="form-control input-custom form-control-lg"
+                        placeholder="Cole sua URL aqui...">
+                    <button class="btn btn-gradient px-4">Encurtar</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Features -->
+        <div class="container mt-5 pt-5 pb-5">
+            <div class="row text-center">
+                <div class="col-md-4 mb-4 mx-auto">
+                    <div class="card card-custom h-100 p-4 cursor-pointer">
+                        <div class="display-4">⚡</div>
+                        <h5 class="mt-3 text-white">Rápido</h5>
+                        <p class="text-white-50">Resultados instantâneos</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact -->
+        <div class="container mt-5 mb-5">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="card bg-dark border-secondary">
+                        <div class="card-body p-5 text-center">
+                            <div class="display-4 mb-3">🐙</div>
+                            <h3 class="text-white mb-3">Meu GitHub</h3>
+                            <p class="text-white-50 mb-4">
+                                Confira meus projetos, códigos e contribuições no GitHub!
+                            </p>
+                            <div id="contact-links" class="d-flex justify-content-center gap-3">
+                                <a href="https://github.com/pedrsmc" target="_blank" class="btn btn-github">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                                        class="bi bi-github me-2" viewBox="0 0 16 16">
+                                    </svg>
+                                    Visitar GitHub
+                                </a>
+                                <a href="https://github.com/pedrsmc?tab=repositories" target="_blank"
+                                    class="btn btn-outline-secondary position-absolute top-10 right-10">
+                                    Ver Projetos
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="text-center py-4 border-top border-secondary">
+            <small class="text-white-50">© 2026 EncurtaLink</small>
+        </footer>
+
+</body>
+
+</html>

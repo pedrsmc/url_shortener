@@ -1,0 +1,54 @@
+  body {
+      background: radial-gradient(circle at top, #0f172a, #020617);
+      color: white;
+  }
+
+  .navbar {
+      background: transparent;
+  }
+
+  .hero-title span {
+      color: #6366f1;
+  }
+
+  .input-custom {
+      background: #020617;
+      border: 1px solid #1e293b;
+      border-radius: 12px;
+      color: white;
+  }
+
+  .input-custom:focus {
+      background-color: #2a2a2a;
+      border-color: #667eea;
+      box-shadow: 0 0 0 0.2rem rgba(102, 126, 234, 0.25);
+      color: white;
+      box-shadow: none;
+  }
+
+  .input-custom::placeholder {
+      color: #6c757d;
+      font-weight: 400;
+  }
+
+  .btn-gradient {
+      background: linear-gradient(90deg, #6366f1, #8b5cf6);
+      border: none;
+      color: white;
+  }
+
+  .btn-gradient:hover {
+      opacity: 0.9;
+  }
+
+  .card-custom {
+      background: rgba(15, 23, 42, 0.6);
+      border: 1px solid #1e293b;
+      border-radius: 16px;
+      transition: 0.3s;
+  }
+
+  .card-custom:hover {
+      transform: translateY(-5px);
+      border-color: #6366f1;
+  }
